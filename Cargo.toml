@@ -57,8 +57,8 @@ test_masked_fill = ["masked_fill", "triangular", "logical_not"]
 
 
 [dependencies]
-candle-core = "0.4"
-candle-nn = "0.4"
+candle-core = { git = "https://github.com/EricLBuehler/candle.git", version = "0.4.2" }
+candle-nn = { git = "https://github.com/EricLBuehler/candle.git", version = "0.4.2" }
 num-traits = "0.2"
 
 
